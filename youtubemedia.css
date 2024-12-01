@@ -1,0 +1,154 @@
+@media (min-width: 1080px){
+	  .header{
+	  	grid-template-columns: repeat(3,1fr);
+
+	  }
+
+	  .navlast{
+	  	padding-left: 120px;
+	  }
+
+	  
+}
+
+@media (max-width: 1080px) {
+	.header{
+		grid-template-columns: repeat(2,1fr);
+
+	}
+
+	.navlast{
+		padding-left: 70px;
+	}
+
+	.search input{
+		width: 300px;
+	}
+
+	.selector{
+		padding-left: 5px;
+	    padding-right:5px;
+	    width: 42px;
+		
+	}
+
+	.nav{
+		left: 30px;
+		top: 50px;
+
+	}
+
+	.chnlogo{
+		float: left;
+	}
+
+	.chnt{
+		width: 400px;
+
+	}
+
+	.box{
+		text-align: center;
+	}
+
+	
+}
+
+@media (max-width: 800px){
+
+	.header{
+		grid-template-columns: repeat(2,1fr);
+
+	}
+	.search input{
+		width: 230px;
+	}
+
+	.search{
+		margin-left: 30px;
+	}
+
+	.navlast{
+		padding-left: 20px;
+	}
+
+}
+
+
+
+@media (max-width: 430px){
+	.header{
+		grid-template-columns: repeat(1,1fr);
+
+	}
+
+	.selector{
+		display: none;
+		
+	}
+
+	.nav{
+		left: 20px;
+		top: 50px;
+
+	}
+
+	.search input{
+		width: 100px;
+		padding: 0;
+		margin: 0;
+		
+		font-size: 15px;
+	}
+
+	.search-icon{
+		width: 30px;
+		font-size: 15px;
+	}
+
+	.search{
+		margin-left: 0;
+
+	}
+
+	.navlast{
+		padding-left: 0;
+	}
+
+	.logo{
+		margin-right: 20px;
+		margin-left: 10px;
+
+	}
+
+	
+
+	.menu{
+		width: 20px;
+		height: 20px;
+		font-size: 15px;
+		margin-left: 10px;
+	}
+
+	.micro{
+		margin-left: 10px;
+		max-width: 30px;
+		height: 30px;
+		padding-left: 6px;
+		padding-right: 6px;
+
+	}
+
+	.bell,.login{
+		margin-left: 10px;
+	}
+
+	.video{
+		display: none;
+	}
+
+
+
+
+
+}
